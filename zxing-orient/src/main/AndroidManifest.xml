@@ -53,6 +53,7 @@
         android:allowBackup="true"
         android:label="@string/app_name">
         <activity
+            android:exported="true"
             android:name=".CaptureActivity"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
@@ -130,6 +131,7 @@
         </activity>
 
         <activity
+            android:exported="true"
             android:name=".encode.EncodeActivity"
             android:stateNotNeeded="true">
             <intent-filter>
